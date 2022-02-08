@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="javascript/script.js" defer></script>
+  <title>Hogwarts Home</title>
+</head>
+<body>
+  <section class="hero">
+    <nav class="navbar">
+      <div class="brand-title">
+        <a href="#"> Hogwarts</a>
+      </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="assets/assets/pages/houses.html">Sorting Hat</a></li>
+          <li><a href="assets/gallery.html">Gallery</a></li>
+          <li><a href="assets/assets/pages/assets/about-page.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <header class="body-header">
+      <div class="header-left">
+        <h1>Hogwarts School of Witchcraft and Wizardry</h1>
+        <a href="#form-area">Enroll Now!</a>
+      </div>
+      <div class="header-right">
+        <img src="images/Hogwartscrest.png" alt="Hogwarts Crest">
+      </div>
+    </header>
+  </section>
+
+  <section class="form-area" id="form-area">
+    <div class="form-top">
+    <h1 class="form-header">Await your Hogwarts letter through the Owl post
+    </h1>
+    <p>For Muggle-born or half-bloods, a staff member from the school will visit the child and their family in order to inform them of their magical heritage and the existence of the wizarding world
+    </p>
+    <h3 class="form-header-second">Brief History</h3>
+    <p>Hogwarts was founded around 990 A.D. by four of the greatest wizards and witches of the age: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin. They each represented an aspect of personality that they wanted to bring out in new students. They also placed certain protective enchantments in place to ensure the well-being of their students, for which reason the castle and grounds had both always been protected with Anti-Apparition Charms.</p>
+    </div>  
+    <form action="https://formspree.io/f/{form_id}" method="post" class="form-main">
+      <fieldset>
+        <legend>Student Information</legend>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name">
+        <label for="date-of-birth">Date Of Birth</label>
+        <input type="date" name="date-of-birth" id="date-of-birth">
+        <label for="email">Your Email</label>
+        <input name="Email" id="email" type="email">
+        <button type="submit" class="submit-btn">Submit</button>
+      </fieldset>
+    </form>
+  </section>
+</body>
+<footer class="form-footer">
+  <p>&copy;Edgar Caballero, 2022</p>
+</footer>
+</html>
