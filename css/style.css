@@ -223,11 +223,21 @@ body{
 /* footer  */
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
   background-color: #2f3646;
   color: #d5e6ed;
+  padding: 5px;
 }
-
+footer a {
+  text-decoration: none;
+  color: #d5e6ed;
+  font-size: 0.5rem;
+}
+footer p {
+  margin: 0px;
+}
 /* Media Queries Hero section  */
 @media (max-width:800px){
   .body-header {
